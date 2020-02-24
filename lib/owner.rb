@@ -53,6 +53,6 @@ class Owner
       mood = "happy"
     end 
     
-    binding.pry
+    # binding.pry
   end 
 end
