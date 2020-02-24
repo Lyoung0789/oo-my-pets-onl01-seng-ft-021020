@@ -75,7 +75,7 @@ class Owner
     count_dog = 0
     count_cat = 0
     
-    Dog.all.collect do |dog|
+    Dog.all.each do |dog|
       if dog.owner == self 
         count_dog +=1
       end 
