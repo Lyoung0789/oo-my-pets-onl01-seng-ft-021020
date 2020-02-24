@@ -33,11 +33,11 @@ class Owner
 
   
   def cats
-    Cat.all.select {|i| i.owner.name == self.name}
+    Cat.all.select {|i| i.owner == self}
   end 
   
   def dogs 
-    Dog.all.select {|i| i.owner.name == self.name}
+    Dog.all.select {|i| i.owner == self}
     binding.pry
   end 
 end
