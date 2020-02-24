@@ -80,5 +80,6 @@ class Owner
         count_dog +=1
       end 
     end 
+    puts count_dog
   end 
 end
