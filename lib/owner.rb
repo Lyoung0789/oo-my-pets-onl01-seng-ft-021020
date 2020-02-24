@@ -52,7 +52,6 @@ class Owner
     Dog.all.collect do |mood|
       mood = "happy"
     end 
-    
-    # binding.pry
+    Dog.all
   end 
 end
