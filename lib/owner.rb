@@ -87,6 +87,6 @@ class Owner
       end
     end 
     
-    return ""
+    return "I have #{count_dog} dog(s), and #{count_cat} cat(s)."
   end 
 end
