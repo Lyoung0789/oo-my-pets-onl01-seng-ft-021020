@@ -63,6 +63,7 @@ class Owner
   def sell_pets 
     Dog.all.collect do |dog|
       dog.mood = "nervous"
-      dog.owner = 
+      dog.owner = []
+    end 
   end 
 end
