@@ -30,9 +30,7 @@ class Owner
     @@all.clear
   end 
   
-  def animals
-    @@animals << self 
-  end 
+
   
   def cats
     Cat.all.select {|i| i.owner.name == self.name}
