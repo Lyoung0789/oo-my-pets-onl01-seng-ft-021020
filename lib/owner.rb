@@ -72,7 +72,7 @@ class Owner
   end 
   
   def list_pets 
-    Dog.all.each {|dog| dog.owner == self}.count
+    puts Dog.all.each {|dog| dog.owner == self}.count
     
   end 
 end
