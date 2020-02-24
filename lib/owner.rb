@@ -72,13 +72,13 @@ class Owner
   end 
   
   def list_pets 
-    count_dog=0
-    count_cat = 0 
+    count_dog = 0
+    count_cat = 0
+    
     Dog.all.collect do |dog|
       if dog.owner == self 
         count_dog +=1
       end 
     end 
   end 
-  puts count_dog
 end
