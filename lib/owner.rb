@@ -63,11 +63,11 @@ class Owner
   def sell_pets 
     Dog.all.collect do |dog|
       dog.mood = "nervous"
-      dog.owner = []
+      dog.owner = nil
     end 
     Cat.all.collect do |cat|
       cat.mood = "nervous"
-      cat.owner=[]
+      cat.owner= nil
     end 
   end 
 end
