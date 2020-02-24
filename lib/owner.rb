@@ -38,6 +38,6 @@ class Owner
   
   def dogs 
     Dog.all.select {|i| i.owner == self}
-    binding.pry
+    
   end 
 end
