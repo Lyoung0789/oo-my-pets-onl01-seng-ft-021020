@@ -65,5 +65,9 @@ class Owner
       dog.mood = "nervous"
       dog.owner = []
     end 
+    Cat.all.collect do |cat|
+      cat.mood = "nervous"
+      cat.owner=[]
+    end 
   end 
 end
