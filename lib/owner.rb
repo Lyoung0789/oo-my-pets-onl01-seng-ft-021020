@@ -78,6 +78,7 @@ class Owner
       if dog.owner == self 
         count_dog +=1
       end 
+    end 
   end 
   puts count_dog
 end
