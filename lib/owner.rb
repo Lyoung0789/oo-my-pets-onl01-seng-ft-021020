@@ -57,5 +57,6 @@ class Owner
   def feed_cats 
     Cat.all.collect do |cat|
       cat.mood = "happy"
+    end 
   end 
 end
