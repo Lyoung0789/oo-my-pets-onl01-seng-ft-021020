@@ -75,5 +75,8 @@ class Owner
     Dog.all.each do |dog|
       dog.name 
     end 
+     Cat.all.each do |dog|
+      dog.name 
+    end 
   end 
 end
